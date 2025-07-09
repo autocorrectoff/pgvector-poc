@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS words (id bigserial PRIMARY KEY, word varchar(524), embedding vector(768));
